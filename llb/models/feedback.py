@@ -8,4 +8,4 @@ class Feedback:
         self.id_ = id_
 
     def __repr__(self):
-        return "<Id: {}>".format(self.value, self.created_at, question_id, feedback_id, value)
+        return "<Id: {}>".format(self.id_)

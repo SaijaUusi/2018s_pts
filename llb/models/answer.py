@@ -17,5 +17,5 @@ class Answer:
         self.feedback_id = feedback_id_
 
     def __repr__(self):
-        return "<Id: {} Created_at: {} Question_id: {} Feedback_id {} Value: {}>".format(self.value, self.created_at, question_id, feedback_id, value)
+        return "<Id: {}, Created_at: '{}', Question_id: {}, Feedback_id {}, Value: '{}'>".format(self.id_, self.created_at, self.question_id, self.feedback_id, self.value)
 
