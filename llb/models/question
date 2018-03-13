@@ -1,0 +1,15 @@
+class Question:
+    __tablename__ = "question"
+    id = int()
+    type = str()
+    title = str()
+    survey_id = int()
+
+    def __init__(self, id, type, title, survey_id):
+        self.id = id
+        self.type = type
+        self.title = title
+        self.survey_id = survey_id
+
+    def __repr__(self):
+        return "<Id: {},Type: '{}', Title: '{}', Survey_id {}>".format(self.id, self.type, self.title, self.survey_id)
